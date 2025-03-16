@@ -1,0 +1,40 @@
+# Node modules (dependencies)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables (sensitive data)
+.env
+
+# Logs
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Heroku
+.heroku/
+
+# Build files
+/dist
+/out
+/.next
+/.cache
+
+# Miscellaneous
+*.bak
+*.swp
+*.tmp

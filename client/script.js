@@ -9,7 +9,8 @@ let wordCount=0;
 
 // Function to fetch a random quote
 async function getRandomQuote() {
-	const url='http://localhost:3001/api/quotes';
+	const url='/api/quotes';
+	// const url= 'https://zenquotes.io/api/quotes';
 	try {
 		// Use the fetch API to get data from the API
 		// const response = await fetch(url2, {mode:'no-cors'});
